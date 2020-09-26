@@ -1,5 +1,8 @@
 #weather{
     background-image: url(image/bg-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100%;
     height: 100vh;
     position: relative;
