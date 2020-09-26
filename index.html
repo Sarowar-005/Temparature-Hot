@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is common site</title>
+    <!--Bootstrap css link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!--Font awesome cdn link-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Google font css link-->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <!--External css link-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="weather">
+    <div class="container">
+        <div class="weather-search d-flex w-50 mx-auto">
+            <input id="search-box" class="form-control" type="text" name="" placeholder="Enter your Location to find Weather">
+            <button onclick="inputCity()" id="search-btn" class="btn btn-success">Search</button>
+        </div>
+        <div id="weather-status">
+            <img id="icon" class="mx-auto d-block" src="https://assets.weatherstack.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png" alt="">
+            <h2 id="city" class="text-white text-center">Dhaka</h2>
+            <h3 id="country" class="text-white text-center">Bangladesh</h3>
+            <h3 class="text-white text-center"><span id="temp">34.09</span>&#8451;</h3>
+            <h1 id="status" class="lead text-white text-center">Clouds</h1>
+            
+        </div>
+    </div>
+</div>
+
+  
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
